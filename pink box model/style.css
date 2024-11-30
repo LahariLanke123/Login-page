@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  padding: 65PX 23%;
+  padding-bottom: 50px;
+  font-family: 'Poppins';font-size: 22px;
+}
+
+.container .box-container{
+  display: grid;
+  
+  grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+  gap: 15px;
+  border: 1px solid black;
+}
+.container .box-container .box1{
+  border: 1px solid black;
+  
+  background: white;
+  text-align: center;
+ 
+  height: 10px;
+
+
+}
+
+.container .box-container .box-3{
+  border: 1px solid black;
+   background: white;
+  text-align: center;
+  padding-top: 10px;
+  height: 40px;
+}  
+
+
+
+
+.container .box-container .box h3{
+  color: black;
+  font-size: 22px;
+  padding: 10px 0px;
+  line-height: 1.8;
+
+}
+.container .box-container .box p{
+  color: black;
+  font-size: 13px;
+  padding: 5px 0px;
+}
+.container .box-container .box .btn{
+  margin-top: 10px;
+  display: inline-block;
+  background: black;
+  color: #fff;
+  font-size: 10px;
+  border-radius: 5px;
+  padding: 8px 25px;
+  text-decoration: none;
+  border-radius: 30px;
+}
+.container .box-container .box::placeholder{
+  box-shadow: 0 10px 15px rgba(0,0,0, .3);
+  transform: scale(1.03);
+}
+@media (max-width:347px){
+.container{
+  padding: 20px;
+}
+}
